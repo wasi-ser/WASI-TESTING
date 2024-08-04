@@ -31,7 +31,7 @@ const searchAPK = async (m, Matrix) => {
     if (!text) return m.reply('Please provide a search query for APKs');
 
     try {
-      await m.React("🕘");
+      await m.React("😋");
 
 
       let searchResult = await search(text);
@@ -67,13 +67,13 @@ const searchAPK = async (m, Matrix) => {
             },
             interactiveMessage: proto.Message.InteractiveMessage.create({
               body: proto.Message.InteractiveMessage.Body.create({
-                text: `Ethix-MD APK Downloader\n\n🔍 Search and download your favorite APKs easily.\n\n📌 Simply select an APK from the list below to get started.\n\n`
+                text: `WÄ§Ì MÐ V3  ÄþK  ÐÖWñLÖÐÈR\n\n  Search and download your favorite APKs easily.\n\n📌 Simply select an APK from the list below to get started.\n\n`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
                 text: "𝐹𝐼𝐿𝐸 𝐺𝐸𝑁𝐸𝑅𝐴𝑇𝐸𝐷 𝐵𝑌 𝑊𝐴𝑆𝐼 𝑀𝐷 𝑉3"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
-                ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/fbbe1744668b44637c21a.jpg` } }, { upload: Matrix.waUploadToServer })),
+                ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/08248ac71768939e0a193.jpg` } }, { upload: Matrix.waUploadToServer })),
                 title: ``,
                 gifPlayback: true,
                 subtitle: "",
