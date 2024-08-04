@@ -19,6 +19,8 @@ _________________________________________
 *🕰️ ${hours} Hour*
 *⏳ ${minutes} Minute*
 *⏲️ ${seconds} Second*
+
+> THANKS FOR USING WASI MD V3
 _________________________________________
 `;
 
@@ -67,7 +69,7 @@ _________________________________________
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '1203632499607623@newsletter',
+                  newsletterJid: '120363176513103103154@newsletter',
                   newsletterName: "WASI MD V3",
                   serverMessageId: 143
                 }
